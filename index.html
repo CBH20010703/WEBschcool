@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			header{background:black;width:calc(100%);display: flex;padding: 15px 30px;color: #fff;font-size: 18px;display: flex;justify-content: space-around;flex-wrap:wrap;align-items: center;}
+			.header-left span{margin: 0 20px;cursor: pointer;}
+			.fonst18{font-size:25px;}
+			header span{
+				padding: 10px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="header-left">
+				<span>学校名称</span>
+				<span>课程名称</span>
+			</div>
+			<div class="header-rigth">
+				<!-- //接收登陆名称;
+				 id="AccountId"
+				 -->
+				<span>个人中心&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-user fonst18" >&nbsp;<a href="#" style="color: red;font-weight: 600;" id="AccountId">xxxx</a></i></span>
+				<!--//设置按钮
+				id="SetBtn"
+				-->
+				 <span>&nbsp;&nbsp;<a href="#" id="SetBtn"><i class="glyphicon glyphicon-cog fonst18" style="color: #FFFFFF;" ></i></a></span>
+				 <!-- 退出按钮
+				  id="Secede"
+				  -->
+				 <span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" id="Secede"><i class="glyphicon glyphicon-remove fonst18" style="color: #FFFFFF;"></i></a></span>
+			</div>
+		</header>
+	</body>
+</html>
